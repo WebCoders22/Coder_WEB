@@ -24,8 +24,18 @@ export const Pagar = () => {
       </div>
       <div className='container_botones'>
         <div className='container_Subircomprobante'>
-          <Link to={'/'}><box-icon type='solid' name='file-jpg'></box-icon></Link>
-          <text className='subirComprobante'>Favor Subir el comprobante</text>
+          <Link to={'/'}>
+
+            <button className='subir_comprobante'>
+              Subir Comprobante
+            </button>
+          </Link>
+          <Link to={'/'}>
+
+            <button className='subir_comprobante'>
+              Enviar Pedido
+            </button>
+          </Link>
         </div>
       </div>
     </div>

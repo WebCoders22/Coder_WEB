@@ -53,11 +53,10 @@
 }
 
 .container_botones{
-    width: max-content;
-    flex-direction: column;
     display: flex;
-    margin: 25px;
-    ;
+    width: max-content;
+    gap:1rem;
+
 }
 
 .subir_comprobante{

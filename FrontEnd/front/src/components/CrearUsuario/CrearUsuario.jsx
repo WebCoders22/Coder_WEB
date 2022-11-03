@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logincliente from '../Image/logincliente.png';
+import "../CrearUsuario/CrearUsuario.css"
 
 
 export const CrearUsuario = () => {
@@ -10,12 +11,12 @@ export const CrearUsuario = () => {
             <img className='loginCliente' src={logincliente}></img>
         </div>
         <div className='login'>
-            <input type="text" placeholder='Nombre Completo' />
-            <input type="text" placeholder='Telefono' />
-            <input type="text" placeholder='Dirección' />
-            <input type="text" placeholder='Correo Electronico' />
-            <input type="text" placeholder='Crear Contraseña' />
-            <Link to={'/homecliente'}><button type='submit'>
+            <input className="textField" type="text" placeholder='Telefono' />
+            <input className="textField" type="text" placeholder='Nombre Completo' />
+            <input className="textField" type="text" placeholder='Dirección' />
+            <input className="textField" type="text" placeholder='Correo Electronico' />
+            <input className="textField" type="text" placeholder='Crear Contraseña' />
+            <Link to={'/homecliente'}><button className="btn" type='submit'>
                 Enviar
             </button></Link>
 

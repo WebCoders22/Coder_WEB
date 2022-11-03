@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Tendero from '../Image/Tendero.png';
-import "../CrearIngresar/"
+import "../CrearIngresar/CrearIngresar.css"
 
 export const CrearIngresar = () => {
     return (

@@ -6,20 +6,20 @@ import '../CrearingresarCliente/CrearIngresarCliente.css';
 
 export const CrearIngresarClinete = () => {
   return (
-    <div className='container'>
-    <div className='container_crear'>
-        <div className='crear'>
+   
+    <div className='main_container'>
+        <div className='container_img'>
             <img className='Tendero' src={ClientesLogin}></img>
+        </div>
+        <div className='container_btn'>
             <Link to={'/crearusuario'}>
                 <button className='button_products'>Crear Cuenta</button>
             </Link>
-        </div>
-        <div className='Ingresar'>
             <Link to={'/logincliente'}>
                 <button className='button_products'>Ingresar</button>
             </Link>
         </div>
     </div>
-</div>
+
   )
 }

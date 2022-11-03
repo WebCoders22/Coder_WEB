@@ -1,0 +1,22 @@
+.main_container{
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.container_btn{
+    display:flex;
+    flex-direction: column;
+    gap:4rem;
+    margin-top: 200px;
+}
+
+.container_img{
+    margin-left: -20rem;
+    margin-top: 50px;
+}
+
+.Tendero{
+    width: 60rem;
+}
